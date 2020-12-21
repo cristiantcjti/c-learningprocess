@@ -12,12 +12,15 @@ int main(){
     cars.push("lamborghini");
 
     cout <<"\n" <<"Size of the stack cars: " << cars.size() <<"\n";
+
     int count=cars.size();
     for(int x=1; x<=count; x++){
         cout <<"\n" <<"current size of the stack cars: " << cars.size() <<"\n"; 
         cout <<"current top element: " << cars.top() <<"\n"; // STACK.TOP SHOWS THE STACK'S TOP ELEMENT 
         cars.pop();  
     }
-    
+    if(cars.empty()){
+        cout<<"\nStack cars is currently empty.\n";
+    }
     return 0;
 }
