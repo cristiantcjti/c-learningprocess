@@ -7,6 +7,8 @@ struct Country{
     string language;
     int population;
     string size;
+
+
 };
 
 int main(){
@@ -33,9 +35,6 @@ int main(){
     cout<<"Country Language..:"<<South_American.language<<endl;
     cout<<"Country Population:"<<South_American.population<<endl;
     cout<<"Country Size......:"<<South_American.size<<endl;
-
-
-    
 
     return 0;
 }
