@@ -16,7 +16,7 @@ int main(){
     add(&value,num); // WE USE & BEFORE THE VARIABLE TO INDICATE THAT A POINTER WILL RECEIVE IT. 
     cout<<"\nCurrent value after function add(): "<<value<<endl;
 
-    feedArray(array); // BUT WHEN IT IS A ARRAY WE DO NOT NEED TO USE &
+    feedArray(array); // BUT WHEN IT IS AN ARRAY WE DO NOT NEED TO USE &
     for(int x=0; x<3; x++){
         cout<<"\nValue of array's position "<<x<<" is: "<<array[x]<<endl;
     }
