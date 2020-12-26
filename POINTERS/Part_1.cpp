@@ -13,7 +13,7 @@ int main(){
 
     *type = "Bike"; // IT SETS A NEW VALUE INTO THE VARIABLE WHICH IS IN THE POSITION'S MEMORY IN THE POINTER.
     cout<<"\nThis is the variable memory's position: "<<type<<endl;
-    cout<<"\nNew variable's value: "<<*type<<endl; 
+    cout<<"\nThe new variable's value: "<<*type<<endl; 
 
     return 0;
 }
