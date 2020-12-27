@@ -9,5 +9,5 @@
 
 This repository aimes at provide samples over different C/C++ subjects.
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=cristiantcjti&show_icons=true&locale=en&layout=compact" alt="cristiantcjti" /></p>
+
 
