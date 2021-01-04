@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Car.h(13,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Car.h(13,21): warning C4183: 'CarType': missing return type; assumed to be a member function returning 'int'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Car.h(19,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(7,27): error C2664: 'Car::Car(const Car &)': cannot convert argument 1 from 'int' to 'const Car &'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(7,27): message : Reason: cannot convert from 'int' to 'const Car'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(7,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Car.h(17,1): message : see declaration of 'Car::Car'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(8,27): error C2664: 'Car::Car(const Car &)': cannot convert argument 1 from 'int' to 'const Car &'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(8,27): message : Reason: cannot convert from 'int' to 'const Car'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(8,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Car.h(17,1): message : see declaration of 'Car::Car'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(9,27): error C2664: 'Car::Car(const Car &)': cannot convert argument 1 from 'int' to 'const Car &'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(9,27): message : Reason: cannot convert from 'int' to 'const Car'
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Source.cpp(9,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\CURSOS\C++YOUTUBE\C++classes\21_POO_CLASS_HEADER_FILE\21_OOP_CLASS_HEADER_FILE\Car.h(17,1): message : see declaration of 'Car::Car'
