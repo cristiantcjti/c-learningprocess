@@ -1,0 +1,2 @@
+text for test
+These texts will be overwritten, there is no ios::app
