@@ -1,0 +1,3 @@
+text for test
+Ofstream allows us to create and write files.
+Ifstream allows us to read file's content.
