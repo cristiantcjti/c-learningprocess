@@ -11,7 +11,7 @@ int main()
     string phrase = "TESTE";   // 'Cristian C++ developer'
     bool trueorfalse = true;     // TRUE or FALSE
 
-    cout<< "Type your age: ";
+    cout<< "Type your age : ";
     cin>> number;
     cout<< "Type your salary: ";
     cin>> decimals;
