@@ -18,27 +18,30 @@ int main(){
         cout<<"ERROR: " << e.what() << endl << endl;
     }
 
-    cout<<"Insert a values: " << endl;
-    cin >>n1;
+    cout<<"Insert a value: " << endl;
+    cin >> n1;
 
+    cout << endl;
 
-    cout<<"Insert other values: " << endl;
-    cin >>n2;
+    cout << "Insert other value: " << endl;
+    cin >> n2;
+
+    cout << endl;
 
     try{
-        cout<<divide(n1,n2) << endl;
+        cout<<"Result of divisio: " << divide(n1,n2) << endl;
     }catch(const char* e){
         cout<<"ERROR: " << e << endl;
     }
-
-
-
     return 0;
 }
 
 double divide (double n1, double n2){
     if(n2==0){
-        throw "DIVISION BY 0";
+        throw "Division by 0";
+    }
+    if(n2 > n1){
+        throw "Second value must be lesser than the first.";
     }
     return n1/n2;
 }
